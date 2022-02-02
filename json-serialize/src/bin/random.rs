@@ -5,13 +5,13 @@ use rand::Rng;
 fn main() {
     let i: i32 = rand::random();
     println!("The random i32 is {}", i);
-let x: u8 = rand::random();
+    let x: u8 = rand::random();
     println!("The random u8 is {}", x);
 
     let x: f64 = rand::random();
     println!("The random f64 is {}", x);
 
-    let x:bool = rand::random();
+    let x: bool = rand::random();
     println!("The random bool {}", x);
 
     let mut rng = thread_rng();
@@ -23,7 +23,7 @@ let x: u8 = rand::random();
     for i in 1..10 {
         println!("Random number #{}: {}", i, rng.gen_range(0, 100));
     }
-    
+
     let mut arr = [0i32; 9];
     thread_rng().try_fill(&mut arr[..]);
     println!("Random number array {:?}", arr);

@@ -16,6 +16,6 @@ fn main() {
     let r2 = r1.clone();
     let r3 = &r1;
     println!("{:?} \n{:?} \n{:?} \n", &r1, &r2, &r3);
-    println!("{:?} \n{:?} \n{:?} \n", r1, r2, r3);
+                            println!("{:?} \n{:?} \n{:?} \n", r1, r2, r3);
     println!("{:?} \n{:?} \n{:?} \n", r1, r2, r3);
 }

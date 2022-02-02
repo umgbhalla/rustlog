@@ -7,7 +7,7 @@ fn main() {
     let c = &b;
     let d = &c;
     println!("{} {} {} {}", a, b, c, d);
-    let k = vec![4, 5, 2];
+    let _k = vec![4, 5, 2];
     print_type_of(&a);
     print_type_of(&b);
     print_type_of(&c);
