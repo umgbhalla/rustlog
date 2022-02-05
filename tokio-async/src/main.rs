@@ -8,7 +8,6 @@ use tokio::sync::broadcast;
 async fn main() {
     let listener = TcpListener::bind("127.0.0.1:8080").await.unwrap();
     let (tx, addr) = broadcast::channel(100);
-
     loop {
         let (mut socket, addr) = listener.accept().await.unwrap();
         let tx = tx.clone();
