@@ -1,13 +1,11 @@
-use std::result;
-
-use tokio::io::{AsyncBufReadExt, AsyncReadExt, AsyncWriteExt, BufReader};
+use tokio::io::{AsyncBufReadExt, AsyncWriteExt, BufReader};
 use tokio::net::TcpListener;
 use tokio::sync::broadcast;
 
 #[tokio::main]
 async fn main() {
     let listener = TcpListener::bind("127.0.0.1:8080").await.unwrap();
-    let (tx, addr) = broadcast::channel(100);
+    let (tx, _addr) = broadcast::channel(100);
     loop {
         let (mut socket, addr) = listener.accept().await.unwrap();
         let tx = tx.clone();

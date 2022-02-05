@@ -1,5 +1,5 @@
 extern crate serde;
-use bincode;
+
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -55,11 +55,11 @@ fn main() {
     let length = ((point1.x - point2.x) * (point1.x - point2.x)
         + (point1.y - point2.y) * (point1.y - point2.y))
         .sqrt();
-    let valid = if length == 0.0 { false } else { true };
+    let valid = !(length == 0.0);
     let line = Line {
         points: vec![point1, point2],
-        valid: valid,
-        length: length,
+        valid,
+        length,
         desc: "a thin line".to_string(),
     };
     let lines = serde_json::to_string(&line).unwrap();
@@ -111,11 +111,11 @@ fn main() {
     let length = ((point1.x - point2.x) * (point1.x - point2.x)
         + (point1.y - point2.y) * (point1.y - point2.y))
         .sqrt();
-    let valid = if length == 0.0 { false } else { true };
+    let valid = !(length == 0.0);
     let line = Line {
         points: vec![point1, point2],
-        valid: valid,
-        length: length,
+        valid,
+        length,
         desc: "a thin line".to_string(),
     };
     let lines = bincode::serialize(&line).unwrap();
