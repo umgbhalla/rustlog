@@ -1,0 +1,11 @@
+/home/umang/hub/dev/rustlog/Command-Line-Rust/bak/command-line-rust/01_hello/target/debug/deps/assert_cmd-3e55bc0cc95f4402.rmeta: /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/lib.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/assert.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/cargo.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/cmd.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/output.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/color.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/../README.md
+
+/home/umang/hub/dev/rustlog/Command-Line-Rust/bak/command-line-rust/01_hello/target/debug/deps/assert_cmd-3e55bc0cc95f4402.d: /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/lib.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/assert.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/cargo.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/cmd.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/output.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/color.rs /home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/../README.md
+
+/home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/lib.rs:
+/home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/assert.rs:
+/home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/cargo.rs:
+/home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/cmd.rs:
+/home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/output.rs:
+/home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/color.rs:
+/home/umang/.cargo/registry/src/github.com-1ecc6299db9ec823/assert_cmd-2.0.4/src/../README.md:
