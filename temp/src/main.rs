@@ -11,6 +11,7 @@ fn main() {
     let hmm1 = &s2[..2];
     let hmm2 = &s2[3..];
     let mix = format!("{} {}", hmm1, hmm2);
+    print!("{} {} {}", hmm1, hmm2, mix);
     println!(
         "{}\n{}\n{}\n{}\n{}\n{}\n{}",
         s1, s2, s3, slice1, slice2, mix, &hmm2

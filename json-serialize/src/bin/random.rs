@@ -25,7 +25,7 @@ fn main() {
     }
 
     let mut arr = [0i32; 9];
-    thread_rng().try_fill(&mut arr[..]);
+    thread_rng().try_fill(&mut arr[..]).unwrap();
     println!("Random number array {:?}", arr);
 
     let mut rng = thread_rng();
